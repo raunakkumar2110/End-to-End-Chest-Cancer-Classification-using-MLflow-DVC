@@ -10,3 +10,9 @@
 7. Update the pipeline
 8. Update the main.py
 9. Update the dvc.yaml
+
+
+## Setup the remote server creds in local dagshub we can also do it with amazon s3 bucket also
+1. MLFLOW_TRACKING_URI=https://dagshub.com/raunakkumar2110/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC.mlflow
+2. MLFLOW_TRACKING_USERNAME=raunakkumar2110
+3. MLFLOW_TRACKING_PASSWORD=bea1ab33dc7530c51e50ecbcbaa3ef64486c73fe

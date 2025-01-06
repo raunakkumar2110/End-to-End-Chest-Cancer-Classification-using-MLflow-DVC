@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Personal/Projects_Computer_Science_And_Engineering/RaunakDLProject/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/mlruns/0/b919e0e97a274fed9eaecf95f16dde6c/artifacts
+end_time: 1736157190131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b919e0e97a274fed9eaecf95f16dde6c
+run_name: beautiful-newt-769
+run_uuid: b919e0e97a274fed9eaecf95f16dde6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736157066925
+status: 3
+tags: []
+user_id: Raunak Kumar
