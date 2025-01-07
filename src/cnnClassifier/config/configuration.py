@@ -17,11 +17,13 @@ class ConfigurationManager:
         self.params = read_yaml(params_filepath)
 
         create_directories([self.config.artifacts_root])
+        # print(f"Artifacts root directory: {self.config.artifacts_root}")
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
 
         create_directories([config.root_dir])
+        # print(f"Data ingestion root directory: {config.root_dir}")
 
         data_ingestion_config = DataIngestionConfig(
             root_dir=config.root_dir,
@@ -29,6 +31,12 @@ class ConfigurationManager:
             local_data_file=config.local_data_file,
             unzip_dir=config.unzip_dir 
         )
+        #  # Log the paths being used
+        # print("DataIngestionConfig:")
+        # print(f"  root_dir: {data_ingestion_config.root_dir}")
+        # print(f"  source_URL: {data_ingestion_config.source_URL}")
+        # print(f"  local_data_file: {data_ingestion_config.local_data_file}")
+        # print(f"  unzip_dir: {data_ingestion_config.unzip_dir}")
 
         return data_ingestion_config
       
